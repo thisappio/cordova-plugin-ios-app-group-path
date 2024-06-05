@@ -1,0 +1,26 @@
+{
+    "name": "cordova-plugin-ios-app-group-path",
+    "version": "0.1.0",
+    "description": "Cordova App Group Path Plugin",
+    "types": "./types/index.d.ts",
+    "cordova": {
+        "id": "cordova-plugin-ios-app-group-path",
+        "platforms": [ "ios" ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thisappio/cordova-plugin-ios-app-group-path"
+    },
+    "bugs": {
+        "url": "https://github.com/thisappio/cordova-plugin-ios-app-group-path/issues"
+    },
+    "keywords": [
+        "cordova",
+        "app-group",
+        "ecosystem:cordova",
+        "cordova-ios",
+        "cordova-plugin-file"
+    ],
+    "author": "thisApp inc.",
+    "license": "Apache-2.0"
+}

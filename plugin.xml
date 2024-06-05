@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="cordova-plugin-ios-app-group-path"
+        version="0.1.0">
+  <name>AppGroupPath</name>
+
+  <description>Cordova App Group Path Plugin</description>
+
+  <keywords>cordova,path,appgroup</keywords>
+
+  <js-module src="www/app-group-path.js" name="AppGroupPath">
+    <clobbers target="AppGroupPath" />
+  </js-module>
+
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="AppGroupPath">
+          <param name="ios-package" value="AppGroupPath" />
+      </feature>
+    </config-file>
+  </platform>
+</plugin>

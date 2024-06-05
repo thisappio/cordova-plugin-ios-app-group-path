@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
         id="cordova-plugin-ios-app-group-path"
-        version="0.2.0">
+        version="0.3.0">
   <name>AppGroupPath</name>
 
   <description>Cordova App Group Path Plugin</description>

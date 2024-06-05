@@ -13,7 +13,7 @@ using cordova-plugin-file.
 ```js
 document.addEventListener('deviceready', onDeviceReady, false);
 function onDeviceReady() {
-    appGroupPath.getPath(
+    AppGroupPath.getPath(
         'group.com.app',
         (path) => console.log(path),
         (error) => console.log(error)

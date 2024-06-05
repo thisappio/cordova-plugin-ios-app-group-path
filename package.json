@@ -1,6 +1,6 @@
 {
     "name": "cordova-plugin-ios-app-group-path",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Cordova App Group Path Plugin",
     "types": "./types/index.d.ts",
     "cordova": {

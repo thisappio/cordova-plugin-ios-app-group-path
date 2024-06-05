@@ -19,7 +19,6 @@
       </feature>
     </config-file>
 
-    <header-file src="src/ios/AppGroupPath.h" />
     <source-file src="src/ios/AppGroupPath.m" />
   </platform>
 </plugin>
